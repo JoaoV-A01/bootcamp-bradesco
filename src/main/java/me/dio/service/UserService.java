@@ -1,4 +1,7 @@
 package me.dio.service;
 
-public class UserService {
+import me.dio.domain.model.User;
+
+public interface UserService extends CrudService<Long, User> {
+
 }
